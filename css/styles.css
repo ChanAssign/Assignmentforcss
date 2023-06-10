@@ -1,0 +1,112 @@
+html{
+   scroll-behavior:smooth;
+}
+body{
+  margin:0px;
+  padding: 0px;
+  background-color:#a2116d; 
+}
+
+.hedr{
+  background-color:white;
+  height: 150px;
+  width: auto;
+  margin: 50px 250px;
+}
+.hedr h1{
+  font-size: 55px;
+  text-align: center; 
+  font-family:myFirstFont;
+  color: rgb(137, 10, 10);
+  padding-top: 35px;
+  
+}
+
+@font-face{
+  font-family: myFirstFont;
+  src:url("../font/MettaDahlia-EaEG4.ttf");
+}
+
+.hedr h4{
+    text-align: right;
+    font-weight: 800;
+    padding: 0 30px;
+    padding-bottom: 5px;
+    color: purple;
+    font-size: 20px;
+    line-height:4px;
+    font-family: 'Dancing Script', cursive;
+    
+
+}
+.container{
+ background-color: white;
+ font-weight: 550;
+  height: 1900px;
+  width: auto;
+  padding-left:  180px;
+  padding-right:  180px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  margin: 50px 250px;
+  font-size: 22px;
+  font-family: songFont;
+  letter-spacing: 3px;
+  color:rgb(15, 154, 15);
+  
+
+}
+
+@font-face {
+    font-family: parafont;
+    src: url(../font/Melanie-8M5qM.otf);
+}
+
+.drlng{
+    color:rgb(179, 6, 6);
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.beauti{
+    color:purple;
+    font-size: 25px;
+    font-family: parafont;
+    
+}
+
+.lv{
+    color: rgb(149, 4, 4);
+    font-weight: bolder;
+}
+@font-face {
+    font-family: songFont;
+    src: url(../font/BeautifulPeoplePersonalUse-dE0g.ttf);
+}
+
+@font-face {
+    font-family:diffLine ;
+    src: url('../font/CountrysideTwo-r9WO.ttf');
+}
+.bLine{
+    color:rgb(216, 99, 138);
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+}
+@font-face {
+    font-family:difLine ;
+    src: url('../font/I\ Love\ Glitter\ -\ TTF.ttf');
+}
+.prsn{
+    color: rgb(192, 134, 26);
+}
+    
+.tune{
+    font-family: difLine;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(176, 13, 68);
+}
