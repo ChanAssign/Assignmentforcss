@@ -1,0 +1,134 @@
+body {
+margin:0;
+  padding:0;
+}
+
+.head{
+  height: 120px;
+  background-color: #69c110; 
+  background-image: linear-gradient(to right,#af1d1d,#caca16,#20b120, #2aa7c0);
+}
+.head img{
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.container{
+  margin:0;
+  padding:0;
+}
+.container h1{
+  color: white;
+  padding-top: 20px;
+  padding-left: 40px;
+  font-size: 35px;
+}
+
+.head ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+.head ul li{
+  display: inline-block;
+}
+
+.head ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px 50px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+  font-size: 20px; 
+}
+.head ul li a:hover{
+  font-weight: bold;
+  font-size: 25px;
+}
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+   
+}
+.centered h1{
+  font-family: myFirstFont;
+  font-size: 70px;
+}
+.para{
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  color: white;
+}
+.para p{
+  font-family: myFirstFont;
+  font-size: 35px;
+}
+@font-face{
+  font-family: myFirstFont;
+  src:url("../metta-dahlia-font/MettaDahlia-EaEG4.ttf");
+}
+footer{
+  height: 200px;
+  background-color: #69c110; 
+  background-image: linear-gradient(to right,#dd4b85,#4d4ad3,#22d322, #ca6a2b);
+}
+.contain p{
+  display: grid;
+    grid-template-columns: 50% 50%;
+}
+.contain p{
+  padding: 35px;
+  line-height: 1.7;
+  padding-left: 180px;
+  color: #fff0f0;
+  font-size: 20px;
+}
+.foot{
+ position: absolute;
+  line-height:1;
+  top: 255%;
+  left: 70%;
+  color: white;
+}
+.frm{
+  margin-bottom: 3px;
+}
+.btn{
+  color: whitesmoke;
+  font-size: 15px;
+  border: none;
+  background-color: deeppink;
+  margin-top: 4px;
+}
+.about p{
+  font-size: 35px;
+  color: #ce2c82;
+  text-shadow: 1px 1px darkred;
+  text-align: center;
+  justify-content: center;
+font-family: 'Dancing Script', cursive;
+padding: 20px 380px;
+}
+.images{
+ display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  gap:10px;
+  margin: 120px;
+}
+.images div{
+  height: 250px;
+  width: 250px;
+  gap:10px;
+  padding-left: 30px;
+}
+.images div img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
